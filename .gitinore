@@ -1,0 +1,24 @@
+
+# Build artifacts
+/build/
+*.exe
+*.obj
+*.lib
+*.dll
+*.pdb
+*.ilk
+*.user
+*.vcxproj*
+# IDE files
+.vs/
+.vscode/
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+# macOS specific
+.DS_Store
+# Linux specific
+*.o
+a.out
