@@ -1,0 +1,13 @@
+/YourEngineName/
+├── .git/               # Git repository (created when you initialize Git)
+├── build/              # Output directory for compiled binaries (will be created by CMake)
+├── libs/               # Third-party libraries (GLFW, OpenGL loaders, etc.)
+│   └── glfw/
+│   └── glad/           # Or other OpenGL loader like GLEW
+├── src/                # Your engine source code
+│   ├── main.cpp        # Entry point for your application
+│   ├── Engine/         # Core engine components (Renderer, Input, etc.)
+│   └── Game/           # Game-specific code (will be very minimal initially)
+├── CMakeLists.txt      # Main CMake configuration file
+├── .gitignore          # Tells Git what files/folders to ignore (e.g., build/ artifacts)
+└── README.md           # Project description and setup instructions
